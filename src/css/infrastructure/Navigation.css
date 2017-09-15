@@ -1,0 +1,11 @@
+.navbar .navbar-nav > li > a:hover {
+    background-color: #02555F;
+}
+
+.navbar, .navbar .navbar-nav > li, .navbar .navbar-nav > li > a:focus {
+    background-color: #026670;
+}
+
+.navbar-default .navbar-nav > li > a, .navbar-default .navbar-brand {
+    color: #ffffff !important;
+}
