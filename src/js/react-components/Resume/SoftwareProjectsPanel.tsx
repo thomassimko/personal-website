@@ -6,7 +6,7 @@ import {ResumeSection} from "./ResumeSection";
 export class SoftwareProjectsPanel extends React.Component<{}, {}> {
 
     render():JSX.Element {
-        return <ResumeSection title='Major Software Projects'>
+        return <ResumeSection title='Major Software Projects' id='software-projects'>
             {softwareProjects.map((project: ISoftwareProject) => this.projectPanel(project))}
         </ResumeSection>
     }

@@ -6,7 +6,7 @@ import {ResumeSection} from "./ResumeSection";
 
 export class EducationPanel extends React.Component<{}, {}> {
     render() {
-        return <ResumeSection title='Education'>
+        return <ResumeSection title='Education' id='education'>
             <div className='row'>
                 {eduInstitutions.map((institution:IResumeEducation) => this.educationArea(institution))}
             </div>

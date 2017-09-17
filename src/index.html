@@ -12,9 +12,19 @@
         <link rel="stylesheet" type="text/css" href="css/react-components/App.css">
         <link rel="stylesheet" type="text/css" href="css/infrastructure/Navigation.css">
         <link rel="stylesheet" type="text/css" href="css/infrastructure/IntroImage.css">
-
+        <link rel="stylesheet" type="text/css" href="css/react-components/Contact.css">
 
         <link rel="stylesheet" href="images/font-awesome/css/font-awesome.min.css">
+
+        <script>
+            $(document).on('click', 'a.scroll', function(event){
+                event.preventDefault();
+
+                $('html, body').animate({
+                    scrollTop: $( $.attr(this, 'href') ).offset().top - 70
+                }, 800);
+            });
+        </script>
 
         <title>Thomas Simko</title>
     </head>

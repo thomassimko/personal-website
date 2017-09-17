@@ -7,7 +7,7 @@ import {Row} from "../bootstrap/Row";
 export class WorkExperiencePanel extends React.Component<{}, {}> {
 
     render():JSX.Element {
-        return <ResumeSection title='Work Experience'>
+        return <ResumeSection title='Work Experience' id='work-experience'>
             {workExperience.map((occupation: IOccupation) => this.occupationPanel(occupation))}
         </ResumeSection>
     }

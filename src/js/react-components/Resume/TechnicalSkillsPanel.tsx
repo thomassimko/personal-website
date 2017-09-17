@@ -6,7 +6,7 @@ import {ResumeSection} from "./ResumeSection";
 
 export class TechnicalSkillsPanel extends React.Component<{}, {}> {
     render():JSX.Element {
-        return <ResumeSection title='Technical Skills'>
+        return <ResumeSection title='Technical Skills' id='technical-skills'>
             <ul>
                 {technicalSkills.map((skill:ITechnicalSkill) => this.technicalSkillItem(skill))}
             </ul>

@@ -1,5 +1,7 @@
 import * as React from 'react';
 import {Resume} from "./Resume/ResumeRoot";
+import {Link} from "react-router-dom";
+import {Contact} from "./Contact/Contact";
 
 export class App extends React.Component<{}, {}> {
     render() {
@@ -15,7 +17,9 @@ export class App extends React.Component<{}, {}> {
                     </div>
                 </div>
             </div>
+            <Link to={'/#/resume'}/>
             <Resume/>
+            <Contact/>
         </div>
     }
 }

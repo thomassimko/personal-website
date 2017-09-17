@@ -1,18 +1,8 @@
 #intro-photo {
-    display: table;
-    width: 100%;
-    height: auto;
+    width: 100vw;
     text-align: center;
     color: #fff;
     background: url(../../images/cover.JPG) no-repeat center center fixed;
-    background-color: #000;
-    -webkit-background-size: cover;
     padding: 75px;
-    -moz-background-size: cover;
     background-size: cover;
-    -o-background-size: cover;
-}
-
-#intro-title {
-    font-size: 1000%;
 }
