@@ -1,5 +1,5 @@
-.navbar .navbar-nav > li > a:hover {
-    background-color: #02555F;
+.navbar .navbar-nav > li > a:hover, .navbar .navbar-nav>.open>a  {
+    background-color: #02555F !important;
 }
 
 .navbar, .navbar .navbar-nav > li, .navbar .navbar-nav > li > a:focus {

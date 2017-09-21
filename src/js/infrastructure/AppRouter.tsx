@@ -4,6 +4,7 @@ import {App} from "../react-components/App";
 import {Navigation} from "./Navigation";
 import {Resume} from "../react-components/Resume/ResumeRoot";
 import {NotFound} from "../react-components/NotFound";
+import {Switch} from "react-router";
 
 export class AppRouter extends React.Component<{}, {}> {
 
@@ -24,9 +25,10 @@ export class AppRouter extends React.Component<{}, {}> {
 
     render() {
         return <HashRouter>
-            <Route path="/" component={() => this.root}>
+            <Switch>
+                <Route exact path="/" component={() => this.root}/>
                 <Route path="*" component={() => this.notFound}/>
-            </Route>
+            </Switch>
         </HashRouter>;
     }
 }

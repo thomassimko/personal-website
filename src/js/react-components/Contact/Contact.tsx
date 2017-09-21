@@ -1,7 +1,6 @@
 import * as React from 'react';
 import {Row} from "../bootstrap/Row";
 
-
 export class Contact extends React.Component<{}, {}> {
 
     render() {
@@ -15,8 +14,8 @@ export class Contact extends React.Component<{}, {}> {
             <Row>
                 <div className="col-md-offset-4 col-md-2" style={{alignContent: 'center'}}>
                     <div className='media-photo'>
-                        <a href='https://www.linkedin.com/in/thomas-simko-0b2491b6/'>
-                            <img src="../../../images/github.png"/>
+                        <img src={require('../../../images/github.png')}/>
+                        <a href='https://github.com/thomassimko?tab=repositories'>
                             <div className="overlay">
                                 <div style={{paddingTop: '15px'}}>
                                     <h4>Visit my GitHub</h4>
@@ -27,7 +26,7 @@ export class Contact extends React.Component<{}, {}> {
                 </div>
                 <div className="col-md-2" style={{alignContent: 'center'}}>
                     <div className='media-photo'>
-                    <img src="../../../images/linkedin.png"/>
+                        <img src={require('../../../images/linkedin.png')}/>
                         <a className='media-photo' href='https://www.linkedin.com/in/thomas-simko-0b2491b6/'>
                             <div className="overlay">
                                 <div style={{paddingTop: '15px'}}>
