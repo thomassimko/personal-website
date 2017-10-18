@@ -16,7 +16,8 @@ const CalPolyClassList:string[] = [
     'Discrete Mathematics',
     'Intro to Databases',
     'Linear Analysis',
-    'Methods of Proof'
+    'Methods of Proof',
+    'Computer Architecture'
 ];
 
 export const eduInstitutions:IResumeEducation[] = [

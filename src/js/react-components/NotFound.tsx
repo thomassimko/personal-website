@@ -12,7 +12,7 @@ export class NotFound extends React.Component<{}, {}> {
     };
 
     render() {
-        return <div style={{...this.notFoundContainerStyle, }}>
+        return <div style={{...this.notFoundContainerStyle, marginTop: '50px'}}>
             <h2>
                 <i className='fa fa-exclamation-triangle'/>&nbsp;Page Not Found
             </h2>

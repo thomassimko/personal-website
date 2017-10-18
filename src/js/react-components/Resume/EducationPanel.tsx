@@ -3,13 +3,14 @@ import {eduInstitutions} from "../../models/ResumeInfo";
 import {IResumeEducation} from "../../models/i-resume-education";
 import {Row} from "../bootstrap/Row";
 import {ResumeSection} from "./ResumeSection";
+import {Element} from "react-scroll";
 
 export class EducationPanel extends React.Component<{}, {}> {
     render() {
         return <ResumeSection title='Education' id='education'>
-            <div className='row'>
-                {eduInstitutions.map((institution:IResumeEducation) => this.educationArea(institution))}
-            </div>
+                <div className='row'>
+                    {eduInstitutions.map((institution:IResumeEducation) => this.educationArea(institution))}
+                </div>
         </ResumeSection>
     }
 

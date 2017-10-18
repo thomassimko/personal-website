@@ -5,30 +5,38 @@ import {Navigation} from "./Navigation";
 import {Resume} from "../react-components/Resume/ResumeRoot";
 import {NotFound} from "../react-components/NotFound";
 import {Switch} from "react-router";
+import {Projects} from "../react-components/Projects/projects";
+import {INavigator} from "./Navigator";
 
-export class AppRouter extends React.Component<{}, {}> {
+export interface IAppRouter {
+    navigator: INavigator
+}
 
-    get root() {
-        return <div>
-            <Navigation/>
-            <App/>
-        </div>
-    }
+export class AppRouter extends React.Component<IAppRouter, {}> {
 
-    get resume() {
-        return <Resume/>
+    get app() {
+        return <App/>
     }
 
     get notFound() {
         return <NotFound/>
     }
 
+    get projects() {
+        return <Projects/>
+    }
+
+
+
     render() {
-        return <HashRouter>
-            <Switch>
-                <Route exact path="/" component={() => this.root}/>
-                <Route path="*" component={() => this.notFound}/>
-            </Switch>
-        </HashRouter>;
+        return <div>
+            <Navigation/>
+            <HashRouter>
+                <Switch>
+                    <Route exact path="/" component={() => this.app}/>
+                    <Route path="*" component={() => this.notFound}/>
+                </Switch>
+            </HashRouter>
+        </div>;
     }
 }

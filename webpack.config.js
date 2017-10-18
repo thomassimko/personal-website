@@ -34,14 +34,11 @@ module.exports = {
                     loader: 'url-loader'
                 },
             },
-            {
-                test: /\.css$/,
-                loaders: ["style-loader","css-loader"]
-            }
+            { test: /\.css$/, use: [ 'style-loader', 'css-loader' ] }
         ]
     },
     plugins:[
         new webpack.HotModuleReplacementPlugin(),
-        new HtmlPlugin({template: 'src/index.html'})
+        new HtmlPlugin({template: 'src/index.html'}),
     ]
 };

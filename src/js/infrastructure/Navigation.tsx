@@ -1,4 +1,7 @@
 import * as React from 'react';
+import {Link} from "react-scroll";
+import {ScrollLink} from "./ScrollLink";
+import Scroll from "react-scroll";
 
 export class Navigation extends React.Component<{}, {}> {
     render() {
@@ -10,19 +13,18 @@ export class Navigation extends React.Component<{}, {}> {
                         <span className="icon-bar"></span>
                         <span className="icon-bar"></span>
                     </button>
-                    <a className="navbar-brand scroll" href="#">Thomas Simko</a>
+                    <a className="navbar-brand" href="/#/" onClick={() => Scroll.animateScroll.scrollToTop()}>Thomas Simko</a>
                 </div>
                 <div className="collapse navbar-collapse" id="myNavbar">
                     <ul className="nav navbar-nav">
-                        <li><a className='scroll' href="#intro-photo">Home</a></li>
                         <li className="dropdown">
-                            <a className="dropdown-toggle" data-toggle="dropdown" href="#">Resume<span className="caret"></span></a>
+                            <a className="dropdown-toggle" data-toggle="dropdown" href="/#/">Resume<span className="caret"></span></a>
                             <ul className="dropdown-menu">
-                                <li><a className='scroll' href="#education">Education</a></li>
-                                <li><a className='scroll' href="#technical-skills">Technical Skills</a></li>
-                                <li><a className='scroll' href="#work-experience">Work Experience</a></li>
-                                <li><a className='scroll' href="#software-projects">Software Projects</a></li>
-                                <li><a className='scroll' href="#achievements">Achievements</a></li>
+                                <li><ScrollLink to="education" linkName="Education"/></li>
+                                <li><ScrollLink to="technicalSkills" linkName="Technical Skills"/></li>
+                                <li><ScrollLink to="workExperience" linkName="Work Experience"/></li>
+                                <li><ScrollLink to="softwareProjects" linkName="Software Projects"/></li>
+                                <li><ScrollLink to="achievements" linkName="Achievements"/></li>
                             </ul>
                         </li>
                     </ul>

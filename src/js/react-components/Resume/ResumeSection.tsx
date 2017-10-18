@@ -1,5 +1,7 @@
 import * as React from 'react';
 import {Row} from "../bootstrap/Row";
+import {Element} from "react-scroll";
+
 
 export interface IResumeSectionProps {
     title: string,
@@ -10,14 +12,16 @@ export interface IResumeSectionProps {
 export class ResumeSection extends React.Component<IResumeSectionProps, {}> {
 
     render() {
-        return <div id={this.props.id}>
-            <h2 className='text-center'><u>{this.props.title}</u></h2>
-            <Row>
-                <div className='col-md-offset-2 col-md-8'>
-                    {this.props.children}
-                </div>
-            </Row>
-        </div>
+        return <Element name={this.props.id}>
+            <div id={this.props.id}>
+                <h2 className='text-center'><u>{this.props.title}</u></h2>
+                <Row>
+                    <div className='col-md-offset-2 col-md-8'>
+                        {this.props.children}
+                    </div>
+                </Row>
+            </div>
+        </Element>
     }
 
 }

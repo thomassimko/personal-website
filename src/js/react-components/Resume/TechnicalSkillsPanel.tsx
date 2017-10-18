@@ -1,12 +1,11 @@
 import * as React from 'react';
 import {technicalSkills} from "../../models/ResumeInfo";
-import {Row} from "../bootstrap/Row";
 import {ITechnicalSkill} from "../../models/i-technical-skill";
 import {ResumeSection} from "./ResumeSection";
 
 export class TechnicalSkillsPanel extends React.Component<{}, {}> {
     render():JSX.Element {
-        return <ResumeSection title='Technical Skills' id='technical-skills'>
+        return <ResumeSection title='Technical Skills' id='technicalSkills'>
             <ul>
                 {technicalSkills.map((skill:ITechnicalSkill) => this.technicalSkillItem(skill))}
             </ul>
