@@ -2,34 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1b69634-b1ca-472c-9448-844128ec84b8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/css/infrastructure/App.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/infrastructure/Navigator.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/infrastructure/ScrollLink.tsx" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/js/react-components/Projects/projects.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/font-awesome/fonts/FontAwesome.otf" afterPath="$PROJECT_DIR$/src/images/font-awesome/fonts/FontAwesome.otf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/font-awesome/fonts/fontawesome-webfont.eot" afterPath="$PROJECT_DIR$/src/images/font-awesome/fonts/fontawesome-webfont.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="$PROJECT_DIR$/src/images/font-awesome/fonts/fontawesome-webfont.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/font-awesome/fonts/fontawesome-webfont.woff" afterPath="$PROJECT_DIR$/src/images/font-awesome/fonts/fontawesome-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/images/font-awesome/fonts/fontawesome-webfont.woff2" afterPath="$PROJECT_DIR$/src/images/font-awesome/fonts/fontawesome-webfont.woff2" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle.js" afterPath="$PROJECT_DIR$/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bundle.js.map" afterPath="$PROJECT_DIR$/bundle.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/index.html" afterPath="$PROJECT_DIR$/src/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/index.tsx" afterPath="$PROJECT_DIR$/src/js/index.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/infrastructure/AppRouter.tsx" afterPath="$PROJECT_DIR$/src/js/infrastructure/AppRouter.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/infrastructure/Navigation.tsx" afterPath="$PROJECT_DIR$/src/js/infrastructure/Navigation.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/models/ResumeInfo.ts" afterPath="$PROJECT_DIR$/src/js/models/ResumeInfo.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/react-components/NotFound.tsx" afterPath="$PROJECT_DIR$/src/js/react-components/NotFound.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/react-components/Resume/EducationPanel.tsx" afterPath="$PROJECT_DIR$/src/js/react-components/Resume/EducationPanel.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/react-components/Resume/ResumeSection.tsx" afterPath="$PROJECT_DIR$/src/js/react-components/Resume/ResumeSection.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/react-components/Resume/SoftwareProjectsPanel.tsx" afterPath="$PROJECT_DIR$/src/js/react-components/Resume/SoftwareProjectsPanel.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/react-components/Resume/TechnicalSkillsPanel.tsx" afterPath="$PROJECT_DIR$/src/js/react-components/Resume/TechnicalSkillsPanel.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/js/react-components/Resume/WorkExperiencePanel.tsx" afterPath="$PROJECT_DIR$/src/js/react-components/Resume/WorkExperiencePanel.tsx" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsconfig.json" afterPath="$PROJECT_DIR$/tsconfig.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webpack.config.js" afterPath="$PROJECT_DIR$/webpack.config.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -52,7 +26,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -87,14 +61,19 @@
       <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
-              <folding>
-                <marker date="1508367298000" expanded="true" signature="0:1283" ph="{&quot;name&quot;: &quot;personal-website&quot;...}" />
-                <marker date="1508367298000" expanded="true" signature="91:669" ph="{&quot;@types/bootstrap&quot;: &quot;^3.3.36&quot;...}" />
-                <marker date="1508367298000" expanded="true" signature="684:895" ph="{&quot;start&quot;: &quot;tsc -w&quot;...}" />
-                <marker date="1508367298000" expanded="true" signature="918:1281" ph="{&quot;css-loader&quot;: &quot;^0.28.7&quot;...}" />
-              </folding>
+            <state relative-caret-position="147">
+              <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/build/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -126,16 +105,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
               <caret line="22" column="24" lean-forward="false" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
               <folding />
             </state>
           </provider>
@@ -223,12 +192,12 @@
         <option value="$PROJECT_DIR$/src/js/infrastructure/ScrollLink.tsx" />
         <option value="$PROJECT_DIR$/src/js/infrastructure/Navigation.tsx" />
         <option value="$PROJECT_DIR$/src/js/react-components/Resume/TechnicalSkillsPanel.tsx" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/src/js/react-components/App.tsx" />
-        <option value="$PROJECT_DIR$/build/index.html" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/build/index.html" />
       </list>
     </option>
   </component>
@@ -283,22 +252,14 @@
               <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal-website" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal-website" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="font-awesome" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -513,12 +474,12 @@
       <workItem from="1504700351191" duration="64006000" />
       <workItem from="1506049738340" duration="3292000" />
       <workItem from="1508274294666" duration="275000" />
-      <workItem from="1508292034456" duration="9644000" />
+      <workItem from="1508292034456" duration="9854000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77217000" />
+    <option name="totallyTimeSpent" value="77427000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,11 +499,11 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25986394" sideWeight="0.5988456" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2829932" sideWeight="0.45454547" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25986394" sideWeight="0.4011544" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2829932" sideWeight="0.55122656" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25986394" sideWeight="0.3989899" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2829932" sideWeight="0.54545456" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.479798" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -863,19 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="26" column="70" lean-forward="false" selection-start-line="26" selection-start-column="70" selection-end-line="26" selection-end-column="70" />
-          <folding>
-            <marker date="1508367298000" expanded="true" signature="0:1283" ph="{&quot;name&quot;: &quot;personal-website&quot;...}" />
-            <marker date="1508367298000" expanded="true" signature="91:669" ph="{&quot;@types/bootstrap&quot;: &quot;^3.3.36&quot;...}" />
-            <marker date="1508367298000" expanded="true" signature="684:895" ph="{&quot;start&quot;: &quot;tsc -w&quot;...}" />
-            <marker date="1508367298000" expanded="true" signature="918:1281" ph="{&quot;css-loader&quot;: &quot;^0.28.7&quot;...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -910,18 +858,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="14" lean-forward="false" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="27" column="32" lean-forward="false" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="38" lean-forward="false" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
           <folding />
         </state>
       </provider>
