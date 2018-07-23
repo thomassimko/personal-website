@@ -1,0 +1,25 @@
+#intro-photo {
+    text-align: center;
+    color: #fff;
+    background: url(../../images/cover.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    width: auto ;
+    max-width: 100% ;
+    height: auto ;
+}
+
+@media screen and (max-width: 768px) {
+    #intro-photo {
+        text-align: center;
+        color: #fff;
+        background: url(../../images/cover.jpg) center;
+        background-size: cover;
+        padding-top: 75px;
+        padding-bottom: 75px;
+        width: auto ;
+        max-width: 100% ;
+        height: auto ;
+    }
+}

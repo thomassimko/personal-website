@@ -3,7 +3,7 @@ import {Link} from "react-scroll";
 
 export interface IScrollLinkProps {
     to: string,
-    linkName?: string
+    linkName?: JSX.Element
 }
 
 export class ScrollLink extends React.Component<IScrollLinkProps, {}> {

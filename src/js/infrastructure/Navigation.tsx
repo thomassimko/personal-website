@@ -20,16 +20,16 @@ export class Navigation extends React.Component<{}, {}> {
                         <li className="dropdown">
                             <a className="dropdown-toggle" data-toggle="dropdown" href="/#/">Resume<span className="caret"></span></a>
                             <ul className="dropdown-menu">
-                                <li><ScrollLink to="education" linkName="Education"/></li>
-                                <li><ScrollLink to="technicalSkills" linkName="Technical Skills"/></li>
-                                <li><ScrollLink to="workExperience" linkName="Work Experience"/></li>
-                                <li><ScrollLink to="softwareProjects" linkName="Software Projects"/></li>
-                                <li><ScrollLink to="achievements" linkName="Achievements"/></li>
+                                <li><ScrollLink to="education" linkName={<span>Education</span>}/></li>
+                                <li><ScrollLink to="technicalSkills" linkName={<span>Technical Skills</span>}/></li>
+                                <li><ScrollLink to="workExperience" linkName={<span>Work Experience</span>}/></li>
+                                <li><ScrollLink to="softwareProjects" linkName={<span>Software Projects</span>}/></li>
+                                <li><ScrollLink to="achievements" linkName={<span>Achievements</span>}/></li>
                             </ul>
                         </li>
                     </ul>
                     <ul className="nav navbar-nav navbar-right">
-                        <li><a className='scroll' href="#contact">Contact Me&nbsp;&nbsp;<span className="glyphicon glyphicon-arrow-right"/></a></li>
+                        <li><ScrollLink to="contactMe" linkName={<span>Contact Me&nbsp;&nbsp;<span className="glyphicon glyphicon-arrow-right"/></span>}/></li>
                     </ul>
                 </div>
             </div>

@@ -17,8 +17,8 @@ export class EducationPanel extends React.Component<{}, {}> {
     private educationArea(institution:IResumeEducation): JSX.Element {
         return <div key={institution.name} style={{paddingLeft: '15px', paddingRight: '15px'}}>
             <h4>{institution.name}, {institution.city}, {institution.state}</h4>
-            <div style={{marginLeft: '10x'}}>
-                {institution.major ? <b>Major: {institution.major}</b> : null}
+            <div style={{marginLeft: '20px'}}>
+                {institution.major ? <b>{institution.major}</b> : null}
                 <div><b>{institution.startDate} - {institution.endDate}</b></div>
                 <div><b>GPA: </b>{institution.gpa}</div>
                 {institution.courses

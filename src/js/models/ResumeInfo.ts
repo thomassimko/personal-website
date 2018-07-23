@@ -28,7 +28,7 @@ export const eduInstitutions:IResumeEducation[] = [
         startDate: 'September 2014',
         endDate: 'Expected Graduation Date: June 2018',
         gpa: 3.70,
-        major: 'Software Engineering',
+        major: 'Master\'s and Bachelor of Science in Software Engineering',
         courses: CalPolyClassList
     },
     {
@@ -49,14 +49,13 @@ export const eduAchievements:string[] = [
 ];
 
 export const technicalSkills:ITechnicalSkill[] = [
-    {skill: 'Java', rating: 4},
-    {skill: 'TypeScript', rating: 3},
-    {skill: 'Javascript', rating: 2},
-    {skill: 'C', rating: 2},
+    {skill: 'Java', rating: 5},
+    {skill: 'TypeScript', rating: 4},
+    {skill: 'Javascript', rating: 3},
+    {skill: 'C', rating: 3},
     {skill: 'Python', rating: 2},
     {skill: 'C++', rating: 2},
-    {skill: 'XML', rating: 2},
-    {skill: 'React', rating: 3},
+    {skill: 'React', rating: 4},
     {skill: 'Bootstrap', rating: 3},
     {skill: 'CSS', rating: 2},
     {skill: 'JUnit', rating: 4},
@@ -64,8 +63,6 @@ export const technicalSkills:ITechnicalSkill[] = [
     {skill: 'Eclipse', rating: 4},
     {skill: 'IntelliJ', rating: 4},
     {skill: 'Git', rating: 4},
-    {skill: 'Asana', rating: 1},
-    {skill: 'Slack', rating: 5},
     {skill: 'JIRA', rating: 4},
     {skill: 'ElasticSearch', rating: 3},
     {skill: 'NPM', rating: 3},
@@ -121,6 +118,18 @@ export const workExperience:IOccupation[] = [
 ];
 
 export const softwareProjects:ISoftwareProject[] = [
+    {
+        name: "Tele-operated Strawberry Harvester",
+        tools: ["Typescript", "React", "Java", "Spring", "AWS"],
+        time: '2017-2018',
+        summary: "Served as the Front End Technical Lead on a team working with the California Strawberry Commission to develop a platform that enables users to pick strawberries remotely through AWS IoT."
+    },
+    {
+        name: "Onsight Web App",
+        tools: ["Typescript", "React", "AWS", "TensorFlow"],
+        time: "2018",
+        summary: "Individually working on a Serverless system to automatically score rock climbing scorecards using TensorFlow handwriting recognition."
+    },
     {
         name: 'Scheduling Application',
         tools: ['Java', 'MySql', 'TravisCI', 'Git'],

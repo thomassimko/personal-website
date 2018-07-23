@@ -6,7 +6,7 @@ module.exports = {
     entry: ['./src/js/index.tsx'],
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, './build')
+        path: path.resolve(__dirname, './dist')
     },
     devServer: {
         contentBase: "./src",
@@ -34,7 +34,10 @@ module.exports = {
                     loader: 'url-loader'
                 },
             },
-            { test: /\.css$/, use: [ 'style-loader', 'css-loader' ] }
+            {
+                test: /\.css$/,
+                use: [ 'style-loader', 'css-loader' ]
+            }
         ]
     },
     plugins:[

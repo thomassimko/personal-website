@@ -24,8 +24,8 @@
   },
   "scripts": {
     "start": "tsc -w",
-    "build": "rm -rf build && webpack -p && cp -r src/css build/css && cp -r src/images build/images",
-    "deploy": "npm run build && s3cmd sync build/* s3://thomassimko.com && echo '🚀  Deployed!'"
+    "build": "rm -rf dist && webpack -p && cp -r src/css dist/css && cp -r src/images dist/images && rm -rf dist/types",
+    "deploy": "npm run dist && s3cmd sync dist/* s3://thomassimko.com && echo '🚀  Deployed!'"
   },
   "devDependencies": {
     "css-loader": "^0.28.7",

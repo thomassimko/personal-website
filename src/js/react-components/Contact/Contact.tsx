@@ -4,7 +4,7 @@ import {Row} from "../bootstrap/Row";
 export class Contact extends React.Component<{}, {}> {
 
     render() {
-        return <div id="contact" style={{textAlign: 'center', marginBottom: '40px'}}>
+        return <div id="contactMe" style={{textAlign: 'center', marginBottom: '40px'}}>
             <hr/>
             <h2><u>Contact Me:</u></h2>
             <h3>Thomas Simko</h3>
