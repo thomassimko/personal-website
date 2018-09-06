@@ -1,137 +1,336 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1b69634-b1ca-472c-9448-844128ec84b8" name="Default" comment="">
+    <list default="true" id="d643f853-f13e-4b4e-a58e-b09ecd2744f1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Writeup.pages" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/polyfills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpack.config.dev.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpack.config.prod.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/AWSIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/GithubIcon-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/Thomas_Simko_Resume.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/WalkingBerry.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/climbingwall.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/downloadResume-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/javaIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/linkedInIcon-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/pythonIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/reactIcon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/strawberryDetection.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/tuolumneProfile.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/NavBar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/Projects.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/AboutData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/ProjectData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/data/SkillData.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/About.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Contact.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/LazyImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/NavBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Projects.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js/Skills.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/registerServiceWorker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/personal-website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/designed-website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/typescript-compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/infrastructure/Navigation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/infrastructure/Navigation.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/infrastructure/ScrollLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/infrastructure/ScrollLink.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/models/ResumeInfo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/models/ResumeInfo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/react-components/Contact/Contact.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/react-components/Contact/Contact.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/react-components/Resume/EducationPanel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/react-components/Resume/EducationPanel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/infrastructure/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/infrastructure/IntroImage.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/infrastructure/Navigation.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/react-components/Contact.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/cover.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/HELP-US-OUT.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/css/font-awesome.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/animated.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/bordered-pulled.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/core.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/fixed-width.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/font-awesome.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/icons.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/larger.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/list.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/mixins.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/path.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/rotated-flipped.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/screen-reader.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/stacked.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/less/variables.less" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/_animated.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/_bordered-pulled.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/_core.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/_fixed-width.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/_icons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/_larger.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/_list.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/_path.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/_rotated-flipped.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/_stacked.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/font-awesome/scss/font-awesome.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/github.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/images/linkedin.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/index.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/infrastructure/AppRouter.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/infrastructure/Navigation.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/infrastructure/Navigator.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/infrastructure/ScrollLink.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/models/ResumeInfo.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/models/i-occupation.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/models/i-resume-education.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/models/i-software-project.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/models/i-technical-skill.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/react-components/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/react-components/Contact/Contact.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/react-components/NotFound.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/react-components/Projects/projects.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/react-components/Resume/EducationPanel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/react-components/Resume/ResumeRoot.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/react-components/Resume/ResumeSection.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/react-components/Resume/SoftwareProjectsPanel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/react-components/Resume/TechnicalSkillsPanel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/react-components/Resume/WorkExperiencePanel.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js/react-components/bootstrap/Row.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
-    <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1572735589">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="14" />
+          <entry key="project.open.time.0" value="10" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="1171" />
+          <entry key="html" value="16" />
+          <entry key="js" value="2959" />
+          <entry key="json" value="28" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="1171" />
+          <entry key="HTML" value="16" />
+          <entry key="JSON" value="28" />
+          <entry key="JavaScript" value="2959" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="8" />
+          <entry key="html" value="5" />
+          <entry key="ico" value="3" />
+          <entry key="js" value="32" />
+          <entry key="json" value="5" />
+          <entry key="png" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="8" />
+          <entry key="HTML" value="5" />
+          <entry key="Image" value="4" />
+          <entry key="JSON" value="5" />
+          <entry key="JavaScript" value="32" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1817916096">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="js" value="36" />
+          <entry key="json" value="8" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JSON" value="8" />
+          <entry key="JavaScript" value="36" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="md" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Markdown" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Contact.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/react-components/Contact/Contact.tsx">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+            <state relative-caret-position="360">
+              <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tsconfig.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tsconfig.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="App.tsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/react-components/App.tsx">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="App.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/css/infrastructure/App.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file leaf-file-name="ResumeInfo.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/models/ResumeInfo.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="i-resume-education.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/js/models/i-resume-education.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EducationPanel.tsx" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/js/react-components/Resume/EducationPanel.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="webpack.config.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/Contact.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
-              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+              <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/About.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/AboutData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="3" column="213" selection-start-line="3" selection-start-column="213" selection-end-line="3" selection-end-column="213" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/css/NavBar.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/data/ProjectData.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="563" selection-start-line="13" selection-start-column="563" selection-end-line="13" selection-end-column="563" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor>
+                <folding>
+                  <element signature="e#0#41#0" expanded="true" />
+                  <element signature="e#0#41#0" expanded="true" />
+                  <element signature="e#0#26#0" expanded="true" />
+                  <element signature="e#0#42#0" expanded="true" />
+                  <element signature="e#0#26#0" expanded="true" />
+                  <element signature="e#0#35#0" expanded="true" />
+                  <element signature="e#0#26#0" expanded="true" />
+                  <element signature="e#0#26#0" expanded="true" />
+                  <element signature="e#0#26#0" expanded="true" />
+                  <element signature="e#0#28#0" expanded="true" />
+                  <element signature="e#0#28#0" expanded="true" />
+                </folding>
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/js/Skills.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="CSS File" />
-      </list>
-    </option>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>class=</find>
-      <find>dist</find>
-      <find>build</find>
+      <find>gif</find>
+      <find>up</find>
+      <find>fadeInUp</find>
     </findStrings>
-    <replaceStrings>
-      <replace>className=</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -139,54 +338,28 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/data/Projects.js" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/css/index.css" />
+        <option value="$PROJECT_DIR$/src/js/ScrollLink.js" />
+        <option value="$PROJECT_DIR$/src/js/NavBar.js" />
+        <option value="$PROJECT_DIR$/src/css/Projects.css" />
+        <option value="$PROJECT_DIR$/src/css/Animate.css" />
+        <option value="$PROJECT_DIR$/src/js/Projects.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/js/Router.tsx" />
-        <option value="$PROJECT_DIR$/src/js/App.tsx" />
-        <option value="$PROJECT_DIR$/src/js/Navigation.tsx" />
-        <option value="$PROJECT_DIR$/src/js/AppRouter.tsx" />
-        <option value="$PROJECT_DIR$/src/js/Resume.tsx" />
-        <option value="$PROJECT_DIR$/src/js/ReactComponents/Resume.tsx" />
-        <option value="$PROJECT_DIR$/src/js/Infrastructure/AppRouter.tsx" />
-        <option value="$PROJECT_DIR$/src/js/react-components/Resume.tsx" />
-        <option value="$PROJECT_DIR$/src/js/models/i-occupation.ts" />
-        <option value="$PROJECT_DIR$/src/js/react-scrollable-anchor/react-scrollable-anchor.d.ts" />
-        <option value="$PROJECT_DIR$/src/js/models/i-software-project.ts" />
-        <option value="$PROJECT_DIR$/src/js/models/i-technical-skill.ts" />
-        <option value="$PROJECT_DIR$/src/js/react-components/bootstrap/Row.tsx" />
-        <option value="$PROJECT_DIR$/src/css/infrastructure/LandingPhoto.css" />
-        <option value="$PROJECT_DIR$/src/js/react-components/Resume/ResumeRoot.tsx" />
-        <option value="$PROJECT_DIR$/build/dist/src/js/index.js" />
-        <option value="$PROJECT_DIR$/webpack.parts.js" />
-        <option value="$PROJECT_DIR$/src/css/react-components/Contact.css" />
-        <option value="$PROJECT_DIR$/src/css/infrastructure/Navigation.css" />
-        <option value="$PROJECT_DIR$/src/css/infrastructure/IntroImage.css" />
-        <option value="$PROJECT_DIR$/src/css/infrastructure/App.css" />
-        <option value="$PROJECT_DIR$/src/js/react-components/NotFound.tsx" />
-        <option value="$PROJECT_DIR$/src/js/react-components/Projects/projects.tsx" />
-        <option value="$PROJECT_DIR$/src/js/infrastructure/iNavigator.ts" />
-        <option value="$PROJECT_DIR$/src/js/index.tsx" />
-        <option value="$PROJECT_DIR$/src/js/infrastructure/Navigator.ts" />
-        <option value="$PROJECT_DIR$/src/js/infrastructure/AppRouter.tsx" />
-        <option value="$PROJECT_DIR$/src/typings.d.ts" />
-        <option value="$PROJECT_DIR$/build/dist/index.d.ts" />
-        <option value="$PROJECT_DIR$/src/js/react-components/Resume/ResumeSection.tsx" />
-        <option value="$PROJECT_DIR$/src/js/react-components/Resume/SoftwareProjectsPanel.tsx" />
-        <option value="$PROJECT_DIR$/src/js/react-components/Resume/WorkExperiencePanel.tsx" />
-        <option value="$PROJECT_DIR$/src/js/react-components/Resume/TechnicalSkillsPanel.tsx" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/js/react-components/App.tsx" />
-        <option value="$PROJECT_DIR$/src/index.html" />
-        <option value="$PROJECT_DIR$/build/index.html" />
-        <option value="$PROJECT_DIR$/src/js/infrastructure/ScrollLink.tsx" />
-        <option value="$PROJECT_DIR$/src/js/infrastructure/Navigation.tsx" />
-        <option value="$PROJECT_DIR$/src/js/react-components/Contact/Contact.tsx" />
-        <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/js/LoadingImage.js" />
+        <option value="$PROJECT_DIR$/src/js/ImageLoader.js" />
+        <option value="$PROJECT_DIR$/src/js/About.js" />
+        <option value="$PROJECT_DIR$/src/js/LazyImage.js" />
+        <option value="$PROJECT_DIR$/src/data/SkillData.js" />
+        <option value="$PROJECT_DIR$/src/js/Skills.js" />
+        <option value="$PROJECT_DIR$/src/js/App.js" />
+        <option value="$PROJECT_DIR$/src/js/Contact.js" />
+        <option value="$PROJECT_DIR$/src/css/NavBar.css" />
+        <option value="$PROJECT_DIR$/src/data/AboutData.js" />
+        <option value="$PROJECT_DIR$/src/data/ProjectData.js" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/tsconfig.json" />
-        <option value="$PROJECT_DIR$/src/js/models/ResumeInfo.ts" />
-        <option value="$PROJECT_DIR$/src/js/models/i-resume-education.ts" />
-        <option value="$PROJECT_DIR$/src/js/react-components/Resume/EducationPanel.tsx" />
       </list>
     </option>
   </component>
@@ -204,10 +377,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="12" />
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="22" />
-    <option name="width" value="1428" />
+    <option name="width" value="1440" />
     <option name="height" value="830" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -216,7 +388,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,56 +404,33 @@
               <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
               <item name="personal-website" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="react-components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="personal-website" type="b2602c69:ProjectViewProjectNode" />
-              <item name="personal-website" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-              <item name="react-components" type="462c0819:PsiDirectoryNode" />
-              <item name="Resume" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/Simko/IdeaProjects/personal-website/src/js/infrastructure/Navigation.tsx" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536194459533" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
-    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.typescriptcompiler" />
-    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/images" />
-      <recent name="$PROJECT_DIR$/src/js/react-components/Resume" />
-      <recent name="$PROJECT_DIR$/src/css/react-components" />
-      <recent name="$PROJECT_DIR$/src/js/ReactComponents" />
-      <recent name="$PROJECT_DIR$/src/js/Infrastructure" />
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/src/assets" />
+      <recent name="$PROJECT_DIR$/src/css" />
+      <recent name="$PROJECT_DIR$/src/js" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -297,219 +445,106 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Compound.dev-environment">
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="dev-environment" type="CompoundRunConfigurationType" factoryName="Compound Run Configuration">
-      <toRun type="NodeJSConfigurationType" name="webpack-dev-server" />
-      <toRun type="js.build_tools.npm" name="TSC" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="webpack-dev-server" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="node_modules/.bin/webpack-dev-server" working-dir="$PROJECT_DIR$" />
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
       <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration default="true" type="WebSphereRunConfigurationType" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="PORT" value="9080" />
-      <deployment />
-      <server-settings>
-        <option name="PROFILE_PATH" value="" />
-        <option name="SOAP_PORT" value="8880" />
-        <option name="CELL_NAME" value="" />
-        <option name="NODE_NAME" value="" />
-        <option name="SERVER_NAME" value="" />
-        <option name="SECURED" value="false" />
-        <option name="CLIENT_TRUST_FILE_PATH" value="" />
-        <option name="CLIENT_TRUST_PASSWORD" value="WebAS" />
-        <option name="CLIENT_KEY_FILE_PATH" value="" />
-        <option name="CLIENT_KEY_PASSWORD" value="WebAS" />
-        <option name="USERNAME" value="" />
-        <option name="PASSWORD" value="" />
-      </server-settings>
-      <predefined_log_file id="WebSphere" enabled="true" />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="64967" />
-      </RunnerSettings>
-      <ConfigurationWrapper VM_VAR="DEBUG" RunnerId="Cover">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="DEBUG" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <ConfigurationWrapper VM_VAR="DEBUG" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration name="TSC" type="js.build_tools.npm" factoryName="npm">
+    <configuration name="Start" type="js.build_tools.npm" factoryName="npm">
       <package-json value="$PROJECT_DIR$/package.json" />
-      <command value="run" />
-      <scripts>
-        <script value="start" />
-      </scripts>
+      <command value="start" />
       <node-interpreter value="project" />
       <envs />
+      <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Compound.dev-environment" />
-      <item itemvalue="Node.js.webpack-dev-server" />
-      <item itemvalue="npm.TSC" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a1b69634-b1ca-472c-9448-844128ec84b8" name="Default" comment="" />
-      <created>1504700348410</created>
+      <changelist id="d643f853-f13e-4b4e-a58e-b09ecd2744f1" name="Default" comment="" />
+      <created>1533503204389</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1504700348410</updated>
-      <workItem from="1504700351191" duration="64006000" />
-      <workItem from="1506049738340" duration="3292000" />
-      <workItem from="1508274294666" duration="275000" />
-      <workItem from="1508292034456" duration="10307000" />
-      <workItem from="1508378099319" duration="3286000" />
-      <workItem from="1508873694523" duration="11000" />
-      <workItem from="1516748194100" duration="14000" />
-      <workItem from="1532386964279" duration="2060000" />
+      <updated>1533503204389</updated>
+      <workItem from="1533503205590" duration="1756000" />
+      <workItem from="1533507511310" duration="1103000" />
+      <workItem from="1533508632967" duration="587000" />
+      <workItem from="1533509356166" duration="8229000" />
+      <workItem from="1533532472780" duration="27880000" />
+      <workItem from="1533714783768" duration="77000" />
+      <workItem from="1533714982119" duration="22544000" />
+      <workItem from="1534194787929" duration="6112000" />
+      <workItem from="1535413934962" duration="33000" />
+      <workItem from="1535598946400" duration="111000" />
+      <workItem from="1535599153997" duration="7000" />
+      <workItem from="1535599352895" duration="18000" />
+      <workItem from="1535600930565" duration="159000" />
+      <workItem from="1535660649298" duration="444000" />
+      <workItem from="1535739654765" duration="47000" />
+      <workItem from="1535744821076" duration="1371000" />
+      <workItem from="1535781764083" duration="249000" />
+      <workItem from="1535849776518" duration="806000" />
+      <workItem from="1536108992644" duration="7035000" />
+      <workItem from="1536116083251" duration="4568000" />
+      <workItem from="1536193872603" duration="636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83251000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="83772000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="12" y="22" width="1428" height="830" extended-state="0" />
+    <frame x="0" y="22" width="1440" height="830" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info anchor="right" id="PlantUML" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3295129" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.31529582" side_tool="true" visible="true" weight="0.28240108" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.38961038" weight="0.38062757" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.6847042" visible="true" weight="0.28240108" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info anchor="bottom" id="TypeScript" order="7" sideWeight="0.47041848" weight="0.3287858" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27056277" />
-      <window_info anchor="bottom" id="Docker" order="8" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24749643" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="7" sideWeight="0.497114" weight="0.3292517" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32791328" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2899729" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.482684" weight="0.3292517" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32655826" />
+      <window_info anchor="bottom" id="Docker" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="PlantUML" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -518,240 +553,184 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/dist/src/images/github.png" />
-    <entry file="file://$PROJECT_DIR$/build/dist/src/images/linkedin.png" />
-    <entry file="file://$PROJECT_DIR$/be9ec469d0b183a04a1a3e24e2dc5769.png" />
-    <entry file="file://$PROJECT_DIR$/build/dist/src/index.html" />
-    <entry file="file://$PROJECT_DIR$/build/bundle.js" />
-    <entry file="file://$PROJECT_DIR$/build/images/github.png" />
-    <entry file="file://$PROJECT_DIR$/build/images/cover.jpg" />
-    <entry file="file://$PROJECT_DIR$/build/images/linkedin.png" />
-    <entry file="file://$PROJECT_DIR$/build/css/react-components/Contact.css" />
-    <entry file="file://$PROJECT_DIR$/src/css/react-components/App.css" />
-    <entry file="file://$PROJECT_DIR$/webpack.parts.js" />
-    <entry file="file://$PROJECT_DIR$/src/css/react-components/Contact.css">
+    <entry file="file://$PROJECT_DIR$/src/App.test.js" />
+    <entry file="file://$PROJECT_DIR$/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="30">
+          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/infrastructure/Navigation.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="41" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/infrastructure/IntroImage.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/css/infrastructure/App.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/react-components/Projects/projects.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="47" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/infrastructure/iNavigator.ts" />
-    <entry file="file://$PROJECT_DIR$/src/js/infrastructure/AppRouter.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/react-components/NotFound.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="74" selection-start-line="14" selection-start-column="74" selection-end-line="14" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/dist/index.d.ts" />
-    <entry file="file://$PROJECT_DIR$/src/main.d.ts" />
-    <entry file="file://$PROJECT_DIR$/tslint.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-796" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/build/dist/js/models/i-occupation.d.ts" />
-    <entry file="file://$PROJECT_DIR$/src/js/react-components/Resume/SoftwareProjectsPanel.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/react-components/Resume/WorkExperiencePanel.tsx">
+    <entry file="file://$PROJECT_DIR$/src/js/ScrollLink.js" />
+    <entry file="file://$PROJECT_DIR$/src/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/react-components/Resume/ResumeSection.tsx">
+    <entry file="file://$PROJECT_DIR$/build/favicon.ico" />
+    <entry file="file://$PROJECT_DIR$/build/manifest.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="120">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/react-components/Resume/ResumeRoot.tsx">
+    <entry file="file://$PROJECT_DIR$/public/favicon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/App.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="60" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+        <state relative-caret-position="189">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/build/dist/js/index.d.ts" />
-    <entry file="file://$PROJECT_DIR$/src/js/react-components/Resume/TechnicalSkillsPanel.tsx">
+    <entry file="file://$PROJECT_DIR$/src/css/Animate.css" />
+    <entry file="file://$PROJECT_DIR$/public/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="199">
+          <caret line="16" column="97" selection-start-line="16" selection-start-column="97" selection-end-line="16" selection-end-column="97" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/build/css/infrastructure/App.css" />
-    <entry file="file://$PROJECT_DIR$/src/js/index.tsx">
+    <entry file="file://$PROJECT_DIR$/src/css/Projects.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+        <state relative-caret-position="30">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.html">
+    <entry file="file://$PROJECT_DIR$/src/js/LazyImage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="14" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
+        <state relative-caret-position="180">
+          <caret line="13" column="32" selection-start-line="13" selection-start-column="32" selection-end-line="13" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html" />
-    <entry file="file://$PROJECT_DIR$/bundle.js" />
-    <entry file="file://$PROJECT_DIR$/build/index.html" />
-    <entry file="file://$PROJECT_DIR$/dist/bundle.js">
+    <entry file="file://$PROJECT_DIR$/src/js/Projects.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7225">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/bundle.js.map">
-      <provider editor-type-id="sourcemapFileViewerProvider" />
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-234440">
-          <caret column="2045913" selection-start-column="2045908" selection-end-column="2045913" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/infrastructure/Navigator.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/infrastructure/ScrollLink.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="15" column="26" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        <state relative-caret-position="240">
+          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
           <folding>
-            <element signature="e#0#31#0" expanded="true" />
+            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/infrastructure/Navigation.tsx">
+    <entry file="file://$PROJECT_DIR$/src/js/NavBar.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="29" column="25" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+        <state relative-caret-position="615">
+          <caret line="44" column="30" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/react-components/Contact/Contact.tsx">
+    <entry file="file://$PROJECT_DIR$/src/data/SkillData.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        <state relative-caret-position="90">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="20" selection-end-line="6" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+    <entry file="file://$PROJECT_DIR$/build/assets/AWSIcon.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/assets/AWSIcon.ico">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/ImageLoader.js" />
+    <entry file="file://$PROJECT_DIR$/src/js/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="31" column="19" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Contact.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <caret line="23" column="51" selection-start-line="23" selection-start-column="51" selection-end-line="23" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/About.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/NavBar.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/js/Skills.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="28" column="71" selection-start-line="28" selection-start-column="71" selection-end-line="28" selection-end-column="71" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/AboutData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="213" selection-start-line="3" selection-start-column="213" selection-end-line="3" selection-end-column="213" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/data/ProjectData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="563" selection-start-line="13" selection-start-column="563" selection-end-line="13" selection-end-column="563" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor>
+            <folding>
+              <element signature="e#0#41#0" expanded="true" />
+              <element signature="e#0#41#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#42#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#35#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#26#0" expanded="true" />
+              <element signature="e#0#28#0" expanded="true" />
+              <element signature="e#0#28#0" expanded="true" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/react-components/App.tsx">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/css/infrastructure/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/models/ResumeInfo.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="29" column="17" selection-start-line="29" selection-start-column="17" selection-end-line="29" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/models/i-resume-education.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/js/react-components/Resume/EducationPanel.tsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="39" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="39" />
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
         </state>
       </provider>
     </entry>

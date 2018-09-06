@@ -1,0 +1,109 @@
+.navbar-default {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    height: 50px;
+}
+
+@media (max-width: 767px) {
+    .navbar-collapse {
+        background-color: rgba(255, 255, 255, 0.9);
+    }
+}
+@media (min-width: 768px) {
+    .navbar-collapse {
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+.navbar-default .navbar-brand {
+    color: #000000 !important;
+    font-family: 'Roboto Mono', monospace !important;
+    cursor: pointer;
+}
+
+.navbar-default .navbar-nav {
+    font-family: 'Roboto Mono', monospace !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover {
+    color: #000000 !important;
+    background-color: rgba(140,189,34, 0) !important;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a {
+    color: #545454;
+    cursor: pointer;
+}
+
+.navbar-default .navbar-toggle, .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    border-color: #545454;
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    /*background-color: rgba(140,189,34, .85);*/
+}
+
+.first-item:hover ~ hr, .first-hr {
+    margin-left: 4%;
+    width: 20%;
+}
+
+.second-item:hover ~ hr, .second-hr {
+    margin-left: 33%;
+    width: 22%;
+}
+
+.third-item:hover ~ hr, .third-hr {
+    margin-left: 66%;
+    width: 28%;
+}
+
+@media (min-width:992px) {
+    .desktop-only {
+        display:block !important;
+    }
+}
+
+@media (max-width: 991px) {
+    .desktop-only {
+        display:none !important;
+    }
+}
+
+hr {
+    height: .33rem;
+    width: 20%;
+    margin-left: 4%;
+    margin-top: 35px;
+    margin-bottom: 0;
+    overflow: visible;
+    background: #8CBD22;
+    border: none;
+    transition: .3s ease-in-out;
+}
+
+.brand-trans>h1 {
+    transition: 2s ease-in-out;
+    white-space: nowrap;
+    /*left: 0;*/
+}
+
+.brand-trans-top>h1 {
+    /*position: absolute;*/
+    /*width: 100vw;*/
+    padding-top: 100px;
+    text-align: center;
+    width: 100%;
+    /*height: auto;*/
+    /*overflow: hidden;*/
+}
+
+.brand-trans-scrolled>h1 {
+    /*position: relative;*/
+    text-align: left;
+    padding-top: 0px;
+    margin-top: 6px;
+    top: 0;
+    font-size: 20px !important;
+    width:0;
+    /*height: 50px;*/
+    /*overflow: hidden;*/
+
+}
