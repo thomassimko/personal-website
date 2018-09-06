@@ -6,10 +6,6 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 export class Skills extends Component {
 
-    componentWillMount() {
-        // AOS.init();
-    }
-
     render() {
         return (
             <Grid fluid>

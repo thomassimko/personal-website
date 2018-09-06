@@ -25,7 +25,7 @@ export class Projects extends Component {
                         <Image src={project.imageSrc} className="project-image"/>
                     </Col>
                     <Col xsOffset={1} xs={10} md={5}>
-                        <div style={{marginLeft: '20px', color: 'white', height: '200px'}}>
+                        <div style={{marginLeft: '20px', color: 'white', height: '360px'}}>
                             <h3>{project.title}</h3>
                             <h5>{project.technologies.join(", ")}</h5>
                             <p style={{marginTop: '40px'}}>{project.description}</p>
