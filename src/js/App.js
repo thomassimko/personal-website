@@ -12,18 +12,13 @@ export class App extends Component {
     constructor() {
         super();
         this.state = {
-            selected: 1,
-            atTop: true
+            selected: 1
         }
     }
     render() {
         return <div>
-            <NavBar selected={this.state.selected} atTop={this.state.atTop}/>
+            <NavBar selected={this.state.selected}/>
             <section id="top">
-                <Waypoint
-                    onEnter={() => this.setState({atTop: true})}
-                    onLeave={() => this.setState({atTop: false})}
-                />
                 <div style={{paddingTop: "100px", marginBottom: "100px", textAlign: "center"}}>
                     <h1>Thomas Simko</h1>
                     <h3>Software Engineer</h3>

@@ -11,7 +11,7 @@ export const projectList = [
         title: "Onsight Web App",
         time: "2018",
         technologies: ["Typescript", "ReactJS", "AWS", "TensorFlow"],
-        description: "I’m individually developing a platform that would allow climbing gyms to more effectively manage their local climbing competitions — more specifically by improving registration and automated scoring.  After conducting interviews with several climbing gym managers, I learned that gyms lack a common interface to input competition data, and that it can take hours to score just one competition.  My solution is to create a unified experience where gyms can manage participants, setup the competition, and total the scorecards with TensorFlow."
+        description: "I’m individually developing a platform that would allow climbing gyms to more effectively manage their local climbing competitions — more specifically by improving registration and automated scoring.  After conducting interviews with several climbing gym managers, I learned that gyms lack a common interface to input competition data, and that it can take hours to score just one competition.  My solution is to create a unified experience where gyms can manage participants, set up the competition, and total the scorecards with TensorFlow."
     },
     {
         imageSrc: "assets/strawberryDetection.jpg",
