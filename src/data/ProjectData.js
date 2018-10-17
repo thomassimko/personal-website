@@ -19,5 +19,12 @@ export const projectList = [
         time: "2018",
         technologies: ["TensorFlow", "Python"],
         description: "Built using TensorFlow, the Strawberry Object Detection project is a machine learning model that aims to alleviate stress due to labor shortages in the strawberry harvesting industry.  A key goal of this industry is fully autonomous strawberry picking, making strawberry identification an integral concern.  Utilizing transfer learning, we were able to greatly reduce the size of our training set while increasing performance."
+    },
+    {
+        imageSrc: "assets/doNotDuplicate.jpg",
+        title: "Master's Thesis: Duplicate Code Detection",
+        time: "In Progress",
+        technologies: ["Java"],
+        description: "Currently developing now methodology to detect code clones from a program dependence graph. This technique can identify code that is semantically different but has the same functionality.  My plan is to build an abstract syntax tree from code, transform it into a program dependence graph, and perform graph comparisons on the resulting graphs."
     }
 ];
